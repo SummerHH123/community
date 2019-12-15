@@ -1,6 +1,6 @@
 package com.summer.community;
 
-import com.summer.CommunityApplication;
+import com.summer.Community1Application;
 import com.summer.community.dao.AlphaDao;
 import com.summer.community.dao.UserMapper;
 import com.summer.community.entity.User;
@@ -18,7 +18,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @SpringBootTest
-@ContextConfiguration(classes = CommunityApplication.class)
+@ContextConfiguration(classes = Community1Application.class)
 class CommunityApplicationTests implements ApplicationContextAware {
 
 	private ApplicationContext ac;

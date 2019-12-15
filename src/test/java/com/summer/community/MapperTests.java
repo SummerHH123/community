@@ -1,7 +1,7 @@
 package com.summer.community;
 
 
-import com.summer.CommunityApplication;
+import com.summer.Community1Application;
 import com.summer.community.dao.DiscussPostMapper;
 import com.summer.community.dao.UserMapper;
 
@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 @SpringBootTest
-@ContextConfiguration(classes = CommunityApplication.class)
+@ContextConfiguration(classes = Community1Application.class)
 public class MapperTests {
 
 
