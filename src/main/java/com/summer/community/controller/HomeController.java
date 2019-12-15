@@ -34,6 +34,9 @@ public class HomeController {
         page.setRows(discussPostService.findDiscussPostRows(0));
         page.setPath("/index");
 
+
+
+
         if (page.getCurrent()>page.getTotal()){
             page.setCurrent(page.getTotal());
         }

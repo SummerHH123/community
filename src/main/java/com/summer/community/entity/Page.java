@@ -102,7 +102,7 @@ public class Page {
         if (current==1){
             to=current+4;
         }
-        if (current==2){
+        else if (current==2){
             to=current+3;
         }else {
             to=current+2;

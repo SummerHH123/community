@@ -144,7 +144,8 @@
 						</li>
 						<!--class动态添加-->
 						<li  th:if="${page.current!=1}">
-							<a class="page-link" th:href="@{${page.path}(current=${(page.current)-1})}">上一页</a></li>
+							<a class="page-link" th:href="@{${page.path}(current=${(page.current)-1})}">上一页</a>
+						</li>
 						<li th:class="|page-item ${i==page.current?'active':''}|" th:each="i:${#numbers.sequence(page.from,page.to)}">
 							<a class="page-link"  th:href="@{${page.path}(current=${i})}" th:text="${i}">1</a>
 						</li>
